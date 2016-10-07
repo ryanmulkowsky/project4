@@ -1,24 +1,60 @@
-# README
+#Project 2 - <i>Advice.com</i>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Overview
 
-Things you may want to cover:
+####Live Site: [Heroku](https://infinite-hamlet-65363.herokuapp.com/)
 
-* Ruby version
+This project is a Ruby on Rails stack app that was largely inspried by learning how to create a simple "TODO" app.
 
-* System dependencies
+The inspiration behind 'Advice.com' was from a website I found with a similar purpose to what I was wanting to achieve for this project. Guests would be able to read insightful and helpful advice on a variety of topics. Users who signed up and logged in would be able to create their own posts/articles seeking advice and would also be able to create comments on other users posts/articles.
 
-* Configuration
+## Technologies Used
 
-* Database creation
+* HTML & CSS
+* Ruby 2.3.1
+* PostgreSQL
+* Rails 5
+* Active Record (for Object Relational Mapping)
+* ERB (Embedded Ruby for HTML)
+* Heroku (for App Deployment/Hosting)
+* Text Editor - Atom
+* Project Planning & User Stories - Trello
+* Wireframe Design - Mockingbird
 
-* Database initialization
+## Features
 
-* How to run the test suite
+* Guests are able to read existing posts on the website.
+* Users who signup/login are able to create, read, update, and delete their own posts/articles and comments.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Wireframe
 
-* Deployment instructions
+Link to my <b>[Mockingbird](https://gomockingbird.com/projects/t98pjdt)</b> Wireframe.
 
-* ...
+## Project Planning & User Stories
+
+Link to my <b>[Trello](https://trello.com/b/sEOyWa9d/ga-wdi7-project-4)</b> Board.
+
+## Unsolved Problems/Major Hurdles
+
+#### Unsolved Problems
+
+* Issues with fully implementing a CSS framework
+* Issues with implementing Devise security framework
+* Not able to place different background images on different pages
+* Spacing issues on "Show" route with 'Title' and 'Text' of existing articles/posts
+
+#### Major Hurdles
+
+* Was able to create basic authentication in Rails
+* Was able to correctly have 'Comments' model associated with 'Articles' model.
+
+## Future Development
+
+* Utilize either Bootstrap or Foundation CSS framework for better styling
+* Utilize Devise security framework for greater flexibilty and more features
+* Better use of the 'Home/Index' page
+* Create various topics and create dedicated pages for each topic
+* Create NavBar and Footer
+* Create an 'About' page
+* Create an 'Admin' that could CRUD all users articles and comments for moderation purposes
+* Create a 'Chat' app so users can chat in real time about a particular topic
