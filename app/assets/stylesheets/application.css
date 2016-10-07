@@ -13,3 +13,45 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  background-color: rgba(70, 200, 100, 0.3);
+}
+
+h1, h3 {
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+th, td, p {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-decoration: none;
+  background-color: rgba(50, 150, 200, 0.3);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#textbox {
+  height: 200px;
+  width: 400px;
+}
+
+#titlebox {
+  height: 25px;
+  width: 200px;
+}
+
+#commentbox {
+  height: 200px;
+  width: 400px;
+}
+
+#commenttitle {
+  height: 25px;
+  width: 200px;
+}
