@@ -28,7 +28,9 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-gem 'bootstrap-generators', '~> 3.3.4'
+# Use for CSS framework (deprecated)
+# gem 'skeleton-rails'
+
 gem 'record_tag_helper', '~> 1.0'
 
 # Use Capistrano for deployment
