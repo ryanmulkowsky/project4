@@ -14,21 +14,23 @@
  *= require_self
  */
 
+html {
+  font-family: 'Slabo 27px', serif;
+}
+
 body {
-  background-color: rgba(70, 200, 100, 0.3);
+  background-color: rgb(198, 215, 220);
 }
 
 h1, h3 {
   text-align: center;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-th, td, p {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+tr, td {
+  padding: 10px;
 }
 
 a {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-decoration: none;
   background-color: rgba(50, 150, 200, 0.3);
   color: white;
@@ -36,22 +38,34 @@ a {
   padding: 5px;
 }
 
+a:hover {
+  background-color: gray;
+}
+
 #textbox {
   height: 200px;
   width: 400px;
+  border-radius: 5px;
 }
 
 #titlebox {
   height: 25px;
   width: 200px;
+  border-radius: 5px;
 }
 
 #commentbox {
   height: 200px;
   width: 400px;
+  border-radius: 5px;
 }
 
 #commenttitle {
   height: 25px;
   width: 200px;
+  border-radius: 5px;
+}
+
+#popart {
+  margin: 650px;
 }
