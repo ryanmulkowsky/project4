@@ -16,10 +16,17 @@
 
 html {
   font-family: 'Slabo 27px', serif;
+  background: url(/assets/peopleconvo.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body {
-  background-color: rgb(198, 215, 220);
+  background-color: rgba(198, 215, 220, 0.8);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 h1, h3 {
@@ -32,7 +39,7 @@ tr, td {
 
 a {
   text-decoration: none;
-  background-color: rgba(50, 150, 200, 0.3);
+  background-color: rgba(50, 150, 200, 0.5);
   color: white;
   border-radius: 5px;
   padding: 5px;
@@ -41,6 +48,7 @@ a {
 a:hover {
   background-color: gray;
 }
+
 
 #textbox {
   height: 200px;
@@ -67,5 +75,37 @@ a:hover {
 }
 
 #popart {
-  margin: 650px;
+  background-color: rgba(50, 150, 200, 0.5);
+  color: white;
+  margin: 30px 625px 50px 635px;
+  border: 1px solid gray;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
+
+#popart:hover {
+  background-color: gray;
+}
+
+#logo {
+  /*margin-top: 200px;
+  padding-top: 50px;*/
+  font-size: 50px;
+}
+
+#tagline {
+  margin-top: 50px;
+}
+
+#arttitle {
+  text-align: center;
+  font-size: 30px;
+}
+
+#arttext {
+  text-align: center;
+  font-size: 15px;
+}
+
