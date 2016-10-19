@@ -40,17 +40,17 @@ Link to my <b>[Trello](https://trello.com/b/sEOyWa9d/ga-wdi7-project-4)</b> Boar
 
 * Issues with fully implementing a CSS framework
 * Issues with implementing Devise security framework
-* Not able to place different background images on different pages
-* Spacing issues on "Show" route with 'Title' and 'Text' of existing articles/posts
 
 #### Major Hurdles
 
 * Was able to create basic authentication in Rails
-* Was able to correctly have 'Comments' model associated with 'Articles' model.
+* Was able to correctly have 'Comments' model associated with 'Articles' model
+* Was able to solve spacing issue on "Articles/Index" route with 'Title' and 'Text' of existing articles/posts
+* Was able to utilize background image and have it fit the page correctly
 
 ## Future Development
 
-* Utilize either Bootstrap or Foundation CSS framework for better styling
+* Utilize either Bootstrap or Foundation CSS framework for better styling/responsiveness
 * Utilize Devise security framework for greater flexibilty and more features
 * Better use of the 'Home/Index' page
 * Create various topics and create dedicated pages for each topic
